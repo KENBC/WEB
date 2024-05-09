@@ -1,0 +1,75 @@
+/*Font*/
+@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/*colors*/
+:root {
+  --primaryColor: #030406;
+  --hoverColor:#2C5F42;
+  --whiteColor:#FFFFFF;
+  --blackColor:#000000;
+  --brownColor:#EDE9DE;
+}
+
+.home {
+  background: url(../../assets/BC\ background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  display: grid;
+}
+.home .secContainer {
+  padding: 250px;
+}
+.home .secContainer .homeText {
+  text-align: center;
+  font-family: "Caudex", serif;
+}
+.home .secContainer .homeText .title {
+  color: var(--whiteColor);
+}
+.home .secContainer .homeText .title h1 {
+  font-weight: 400;
+  font-size: 60px;
+}
+.home .secContainer .homeText .title .registerBtn {
+  background-color: var(--brownColor);
+  color: var(--hoverColor);
+  border: 1px solid var(--hoverColor);
+  padding: 15px 65px;
+  margin-top: 70px;
+  font-size: 20px;
+  font-weight: 100;
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s;
+}
+.home .secContainer .homeText .title .registerBtn a {
+  color: var(--hoverColor);
+  text-decoration: none;
+}
+.home .secContainer .homeText .title .registerBtn:hover {
+  background-color: var(--hoverColor);
+  border: 1px solid var(--whiteColor);
+}
+.home .secContainer .homeText .title .registerBtn:hover a {
+  color: var(--whiteColor);
+}
+@media (max-width: 768px) {
+  .home {
+    height: auto;
+    padding: 50px 20px;
+    background-size: cover;
+  }
+  .home .secContainer {
+    padding: 50px;
+    margin-top: 10ikujie 0px;
+  }
+  .home .secContainer .homeText .title {
+    font-size: 30px;
+  }
+  .home .secContainer .homeText .title .registerBtn {
+    padding: 5px 30px;
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=home.css.map */
