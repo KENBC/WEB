@@ -1,0 +1,204 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*colors*/
+:root{
+    --primaryColor: #030406;
+    --hoverColor:#2C5F42;
+    --whiteColor:#FFFFFF;
+    --blackColor:#000000;
+    --brownColor:#EDE9DE;
+    
+}
+
+.about-sec{
+    .sec-1{
+        background-color: var(--brownColor);
+        padding: 4rem 0;
+        h1{
+            
+            display: flex;
+            color:var(--blackColor);
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            font-weight: 500;
+            font-family: "Caudex", serif;
+            font-style: normal;
+        }
+        p{
+            padding-top: 50px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-left: 25%;
+            margin-right: 25%;
+            font-size: 1.3rem;
+            font-weight: 300;
+            font-family: "Lato", sans-serif;
+        }
+    }
+    .sec-2{
+        padding:  150px 100px ;
+        display:grid;
+        grid-template-columns:100%;
+        width: auto;
+        .what-sec{
+            display: grid;
+            width: auto;
+            height: 100%;
+            grid-template-columns:50% 50%;
+            background-color: var(--brownColor);
+            .para-1{
+                padding: 4rem 0;
+                text-align: center;
+                justify-content: center;
+                width: 80%;
+                padding-bottom: 50px;
+                h1{
+                    font-family: "Caudex", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 3rem;
+                    text-align: center;
+                    margin-left: 30%;
+                    padding-bottom: 25px;
+                }
+
+                p{
+                    text-align: center;
+                    line-height: 2rem;
+                    justify-content: center;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    margin-left: 30%;
+                    font-family: "Lato", sans-serif;
+                }
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                object-fit: cover;
+            }
+        }
+        .essence-sec{
+            display: grid;
+            width: 100%;
+            height: auto;
+            grid-template-columns:50% 50%;
+            background-color: var(--brownColor);
+            .para-2{
+                padding: 4rem 0;
+                text-align: center;
+                justify-content: center;
+                width: 80%;
+                padding-bottom: 50px;
+                h2{
+                    font-family: "Caudex", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 2rem;
+                    margin-left: 30%;
+                    padding-bottom: 25px;
+                }
+
+                p{
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    font-family: "Lato", sans-serif;
+                    margin-left: 30%;
+                }
+            }
+            img{
+                width:100%;
+                height: 100%;
+                overflow: hidden;
+                object-fit: cover;
+            }
+        }
+        .join-sec{
+            display: grid;
+            width: 100%;
+            height: auto;
+            grid-template-columns:50% 50%;
+            background-color: var(--brownColor);
+            margin-top: 30px;
+            .para-3{
+                text-align: center;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                padding: 1rem 0;
+                h2{
+                    font-family: "Caudex", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 2rem;
+                    margin-top: 70px;
+                    margin-left: 5%;
+                    margin-bottom: 20px;
+                }
+
+                p{
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    font-family: "Lato", sans-serif;
+                    padding-left: 20%;
+                    padding-right: 20%;
+                }
+                .registerBtn{
+                    background-color:rgb(43, 51, 123); 
+                    color: white;
+                    border: 1px solid var(--hoverColor);
+                    padding: 15px 65px;
+                    margin-top: 40px;
+                    margin-bottom: 30px;
+                    font-family:"Lato", sans-serif;
+                    font-size: 20px; 
+                    font-weight: 300;
+                    cursor: pointer; 
+                    transition: color 0.5s, background-color 0.5s;
+                    a{
+                        color: var(--whiteColor);
+                        text-decoration: none;
+
+                    }
+                    &:hover {
+                        a{
+                            color: var(--whiteColor);
+                        }
+                    background-color: var(--hoverColor);
+                    border: 1px solid var(--whiteColor);
+                    }
+
+                }
+            }
+            img{
+                width:100%;
+                height: 100%;
+                position: relative;
+                height: 100%;
+                overflow: hidden;
+                object-fit: cover;
+            }
+        
+
+        }
+    @media (max-width: 786px) {
+        .what-sec, .essence-sec, .join-sec {
+            grid-template-columns: 100%;
+            width: 100%; // Change to vertical stack
+
+            .image2{
+                display: none;
+            }
+
+        }
+    }
+
+    }
+
+}

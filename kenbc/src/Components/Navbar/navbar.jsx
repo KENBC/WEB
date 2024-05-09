@@ -1,10 +1,9 @@
 import React,{ useState } from 'react'
-import { link } from 'react-router'
 import "./navbar.css"
 import logoImg from "../../assets/logo.png";
 import { IoMenu } from "react-icons/io5";
 import { IoMdCloseCircle } from "react-icons/io";
-import About from '../../../../../KENBCW/kenweb/src/Components/About/about';
+import About from '../About/about';
 
 const Navbar = () => {
 //togglebar
