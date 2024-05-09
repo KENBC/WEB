@@ -1,9 +1,11 @@
 import './App.css';
 import Navbar from './Components/Navbar/navbar'
 
+import Home from './Components/Home/home.jsx
 
+/*
 import Governance from './Components/Governance/governance'
-/*import Home from './Components/Home/home.jsx
+import Home from './Components/Home/home.jsx
 import About from './Components/About/about'
  import Governance from './Components/Governance/governance'
 import Membership from './Components/Membership/membership'
@@ -17,7 +19,7 @@ function App() {
     <>
     <Navbar/>
     
-    <Governance/>
+    <Home/>
      {/*/<Home/> <About/>
     <Membership/>
     <Governance/>
