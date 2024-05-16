@@ -1,0 +1,232 @@
+/*font 
+font-family: "Caudex", serif; 
+font-family: "Lato", sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*colors*/
+:root{
+    --primaryColor: #030406;
+    --hoverColor:#2C5F42;
+    --whiteColor:#FFFFFF;
+    --blackColor:#000000;
+    --brownColor:#EDE9DE;
+    
+}
+
+.beno-sec{
+    .sec-1{
+        background-color: var(--brownColor);
+        padding: 4rem 0;
+        h1{
+            
+            display: flex;
+            color:var(--blackColor);
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            font-weight: 500;
+            font-family: "Caudex", serif;
+            font-style: normal;
+        }
+        p{
+            padding-top: 20px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-left: 25%;
+            margin-right: 25%;
+            font-size: 1.3rem;
+            font-weight: 300;
+            font-family: "Lato", sans-serif;
+        }
+    }
+    .sec-2{
+        padding:  150px 100px ;
+        display:grid;
+        grid-template-columns:100%;
+        width: auto;
+        .beno-sec{
+            display: grid;
+            width: 100%;
+            height: 100%;
+            grid-template-columns:40% 60%;
+            background-color: var(--brownColor);
+            .para-1{
+                padding-top: 4rem;
+                padding-bottom: 4rem ;
+                padding-left: 4rem;
+                padding-right: 10px;
+                text-align: right;
+                justify-content: right;
+                width: 60%;
+                padding-bottom: 50px;
+                h1{
+                    font-family: "Caudex", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 2rem;
+                    text-align: center;
+                    margin-left: 30%;
+                    padding-bottom: 25px;
+                    padding-top: 30px;
+                }
+
+                p{
+                    text-align:left;
+                    line-height: 2rem;
+                    justify-content: center;
+                    font-size: 1.1rem;
+                    font-weight: 300;
+                    margin-left: 20%;
+                    font-family: "Lato", sans-serif;
+                    padding-bottom: 50px;
+                }
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                overflow:hidden;
+                object-fit:cover;
+            }
+        }
+
+    }
+    .row1{
+        display: flex ;
+        padding: 3rem 0;
+        margin-left: 5%;
+        .col1{
+            flex: 0 0;
+            width: 52.33333333% !important;
+            img{
+                height: 500px;
+                width: 1000px;
+                object-fit: cover;
+            }
+        }
+        .col2{
+            background-color: var(--whiteColor);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+            position: relative;
+            padding-left:20%;
+            padding-right: 10%;
+            padding-bottom: 5%;
+            color:var(--blackColor);
+            flex: 1 1;
+            right: 10%;
+            top: 15%;
+            .card-body{
+                h5{
+                    padding-top: 5rem;
+                    padding-bottom: 3rem;
+                    font-size: 3rem;
+                    font-weight: 200;
+                    text-align: left;
+                    font-family: "Caudex", serif; 
+                }
+                p{
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    font-family: "Lato", sans-serif;
+                a{
+                    color: var(--blackColor);
+                    font-style: italic;
+                }
+                }
+
+            }
+        }
+    }
+    .sec-3{
+        .para-3{
+            font-size: 3rem;
+            font-family: "Caudex", serif;
+            text-align: center; 
+        }
+        .profile-1{
+            display: flex;
+            .row5{
+                padding: 1.5rem 1.5rem;
+                margin-left: 5%;
+                flex: 0 0;
+                
+                .col5{
+                    width: 52.33333333% !important;
+                    img{
+                        height: 300px;
+                        width:300px;
+                        object-fit: cover;
+                    }
+                }
+                .col-7{
+                    background-color: var(--whiteColor);
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+                    position: relative;
+                    padding: 10px;
+                    height: 50px;
+                    left: 20%;
+                    bottom: 15%;
+                    flex: 1 1 ;
+                    color:var(--blackColor);
+                    .card-b{
+                        h5{
+                            padding-top: .5rem;
+                            font-size: 1.5rem;
+                        }
+                        p{
+                            font-size: 1rem;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    @media (max-width:786px) {
+       
+        .sec-2{
+            display:grid;
+            grid-template-columns: 100%;
+            width: 90%;
+            padding-top: 10%;
+            padding-left: 10%;
+            padding-right: 0;
+            padding-bottom: 20%;
+            margin: 0;
+            justify-content: center;
+            .beno-sec{
+                display: grid;
+                grid-template-columns: 100%;
+                width: 90%;
+            }
+            .row1{
+                width: 90%;
+                margin-left: 10%;
+                padding: 0;
+                justify-content: center;
+                display: grid;
+                grid-template-columns: 100%;
+                img{
+                    display:none;
+                }
+            }
+        }
+        .sec-3{
+            .profile-1{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 100%;
+            width: 90%;
+            margin-left: 10%;
+            .col-7{
+                width: 70%;
+                
+
+            }
+        }
+        }
+        
+    }
+    
+}
