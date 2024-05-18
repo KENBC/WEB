@@ -3,54 +3,56 @@ import "./navbar.css"
 import logoImg from "../../assets/logo.png";
 import { IoMenu } from "react-icons/io5";
 import { IoMdCloseCircle } from "react-icons/io";
-import About from '../About/about';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const Navbar = () => {
 //togglebar
   const[active, setActive] = useState('navBar')
   const showNav =()=> {
     setActive('navBar activeNavbar');
-  }
+  };
 
   //remove bar
   const removeNav =()=> {
     setActive('navBar')
-    }
+  };
+  
 
   return (
+    <Router forceRefresh={true}>
     <section className='navBar-section'>
       <div className='join1'>
-        <a href="#membership">Want to join the KENBC community.Read more</a>
+        <Link to="/Membership">Want to join the KENBC community.Read more</Link>
       </div>
       <div className='header'>
 
         <div className='logoDiv'>
-          <a href='/kenweb/public/index.html' className='logo1'>
+          <Link to="/" className='logo1'>
             <img src={logoImg} alt="Logo"className='logo'/>
-          </a>
+          </Link>
         </div>
 
         <div className={active}>
           <ul>
 
             <li className='navItem'>
-              <a href={<About/>} className='navlink'>About us</a>
+              <Link to="/About" className='navlink'>About us</Link>
             </li>
 
             <li className='navItem'>
-              <a href="#membership" className='navlink'>Membership</a>
+              <Link to="/Membership" className='navlink'>Membership</Link>
             </li>
 
             <li className='navItem'>
-              <a href="#Governance" className='navlink'>Governance</a>
+              <Link to="/Governance" className='navlink'>Governance</Link>
             </li>
 
             <li className='navItem'>
-              <a href="#benevolence" className='navlink'>Benevolence</a>
+              <Link to="/Benevolence" className='navlink'>Benevolence</Link>
             </li>
 
             <li className='navItem'>
-              <a href="#News" className='navlink'>News</a>
+              <Link to="/News" className='navlink'>News</Link>
             </li>
 
             <div onClick={removeNav}className='closeNavbar'>
@@ -67,6 +69,7 @@ const Navbar = () => {
       </div>
 
     </section>
+    </Router>
   )
 }
 

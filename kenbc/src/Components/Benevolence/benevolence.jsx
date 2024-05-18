@@ -7,7 +7,7 @@ import image4 from '../../assets/profile/Wamae_edited.jpg'
 import image5 from '../../assets/profile/Sitawa_edited.png'
 import image6 from '../../assets/profile/Kimani-Karangu_edited.jpg'
 
-const benevolence = () => {
+const Benevolence = () => {
   return (
     <div className='beno-sec'>
 
@@ -113,4 +113,4 @@ const benevolence = () => {
   )
 }
 
-export default benevolence
+export default Benevolence

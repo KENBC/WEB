@@ -1,34 +1,29 @@
 import './App.css';
 import Navbar from './Components/Navbar/navbar'
-
-import Benevolence from './Components/Benevolence/benevolence.jsx'
-/*
-import Home from './Components/Home/home.jsx
-import Home from './Components/Home/home.jsx
-
-/*
-import Governance from './Components/Governance/governance'
-import Home from './Components/Home/home.jsx
+import Home from './Components/Home/home.jsx'
 import About from './Components/About/about'
 import Governance from './Components/Governance/governance'
 import Membership from './Components/Membership/membership'
-import Benevolance from './Components/Benevolance/benevolance'
-import News from './Components/News/news'*/
+import Benevolence from './Components/Benevolence/benevolence.jsx'
+import News from './Components/News/news'
 
 import Footer from './Components/Footer/footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
     <Navbar/>
-    
-    <Benevolence/>
-    
-     {/*/<Home/> <About/>
-    <Membership/>
-    <Governance/>
-    <Benevolance/>
-    <News/>*/}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} exact/>
+        <Route path="/About" element={<About/>} exact/>
+        <Route path="/Governance" element={<Governance/>}/>
+        <Route path="/Membership" element={<Membership/>}/>
+        <Route path="/Benevolence" element={<Benevolence/>}/>
+        <Route path="/News" element={<News/>}/>
+      </Routes>
+    </Router>
     <Footer/> 
     </>
   );

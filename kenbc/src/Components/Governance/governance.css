@@ -131,4 +131,11 @@ font-family: "Lato", sans-serif;
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (max-width: 768px) {
+  .team .sec-3 {
+    justify-content: center;
+    grid-template-columns: 100%;
+    width: 90%;
+  }
 }/*# sourceMappingURL=governance.css.map */

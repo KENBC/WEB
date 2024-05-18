@@ -1,9 +1,11 @@
 import React from 'react'
 import './footer.css'
 import logo from '../../assets/logo/logo.png'
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const footer = () => {
   return (
+	<Router>
     <footer className="footer">
 
 		<div className="footer-section section1">
@@ -18,7 +20,7 @@ const footer = () => {
 
 			<div className="col-md-1">
 
-				<a href="../../../public/index.html"><img src={logo} alt="" className="img-footer"></img></a>
+				<Link to="/"><img src={logo} alt="" className="img-footer"></img></Link>
 				
 				<div className="footer-about">
 
@@ -35,18 +37,18 @@ const footer = () => {
 					<h2>Useful Links</h2>
 
 					<div className="use-links">
-
-						<li><a href="index.html"><i className="fa-solid fa-angles-right"></i> Home</a></li>
+			
+						<li><Link to="/"><i className="fa-solid fa-angles-right"></i> Home</Link></li>
 						
-						<li><a href="../About/about.jsx"><i className="fa-solid fa-angles-right"></i> About Us</a></li>
+						<li><Link to="/About"><i className="fa-solid fa-angles-right"></i> About Us</Link></li>
 						
-						<li><a href="../Membership/membership.jsx"><i className="fa-solid fa-angles-right"></i> Membership</a></li>
+						<li><Link to="/Membership"><i className="fa-solid fa-angles-right"></i> Membership</Link></li>
 						
-						<li><a href="../Benevolance/benevolance.jsx"><i className="fa-solid fa-angles-right"></i> Benovelance</a></li>
+						<li><Link to="/Benevolence"><i className="fa-solid fa-angles-right"></i> Benovelance</Link></li>
 						
-						<li><a href="../Governance/governance.jsx"><i className="fa-solid fa-angles-right"></i> Governance</a></li>
+						<li><Link to="/Governance"><i className="fa-solid fa-angles-right"></i> Governance</Link ></li>
 						
-						<li><a href="../News/news.jsx"><i className="fa-solid fa-angles-right"></i> News</a></li>
+						<li><Link to="../News"><i className="fa-solid fa-angles-right"></i> News</Link ></li>
 				
 					</div>
 
@@ -67,7 +69,7 @@ const footer = () => {
 						Vancouver, BC V6T 1Z2</li>
 
 						
-						<li><a href=""><i className="fa-solid fa-envelope"></i>email: info@kenyacommunitybc.org</a></li>
+						<li><a href="mailto:info@kenyacommunitybc.org"><i className="fa-solid fa-envelope"></i>email: info@kenyacommunitybc.org</a></li>
 					</div>
 
 				</div>
@@ -79,7 +81,7 @@ const footer = () => {
 		Copyright©2023 KENBC. All rights reserved.  
 		</div>
     </footer>
-
+	</Router>
   );
 }
 

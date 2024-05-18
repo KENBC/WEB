@@ -90,7 +90,7 @@ font-family: "Lato", sans-serif;
 }
 .beno-sec .row1 {
   display: flex;
-  padding: 3rem 0;
+  padding: 6rem 0;
   margin-left: 5%;
 }
 .beno-sec .row1 .col1 {
@@ -107,7 +107,7 @@ font-family: "Lato", sans-serif;
   background-color: var(--whiteColor);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
   position: relative;
-  padding-left: 20%;
+  padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
   color: var(--blackColor);
@@ -141,7 +141,7 @@ font-family: "Lato", sans-serif;
   display: flex;
 }
 .beno-sec .sec-3 .profile-1 .row5 {
-  padding: 1.5rem 1.5rem;
+  padding: 4rem 1.5rem;
   margin-left: 5%;
   flex: 0 0;
 }
@@ -158,7 +158,7 @@ font-family: "Lato", sans-serif;
   background-color: var(--whiteColor);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
   position: relative;
-  padding: 10px;
+  padding: 20px;
   height: 50px;
   left: 20%;
   bottom: 15%;
@@ -180,7 +180,7 @@ font-family: "Lato", sans-serif;
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 0;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
     margin: 0;
     justify-content: center;
   }
