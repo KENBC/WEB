@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const footer = () => {
   return (
-	<Router>
+
     <footer className="footer">
 
 		<div className="footer-section section1">
@@ -81,7 +81,6 @@ const footer = () => {
 		Copyright©2023 KENBC. All rights reserved.  
 		</div>
     </footer>
-	</Router>
   );
 }
 

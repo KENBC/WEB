@@ -1,1 +1,103 @@
-/*# sourceMappingURL=membership.css.map */
+/*font*/
+@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+/*colors*/
+:root {
+  --primaryColor: #030406;
+  --hoverColor:#2C5F42;
+  --whiteColor:#FFFFFF;
+  --blackColor:#000000;
+  --brownColor:#EDE9DE;
+}
+
+.membership-sec .sec-1 {
+  background-color: var(--brownColor);
+  padding: 4rem 0;
+}
+.membership-sec .sec-1 h1 {
+  display: flex;
+  color: var(--blackColor);
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: "Caudex", serif;
+  font-style: normal;
+}
+.membership-sec .sec-1 p {
+  padding-top: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+}
+.membership-sec .sec-2 {
+  padding: 150px 100px;
+  display: grid;
+  grid-template-columns: 100%;
+  width: auto;
+}
+.membership-sec .sec-2 .join-sec {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 40% 60%;
+  background-color: var(--brownColor);
+}
+.membership-sec .sec-2 .join-sec .para-1 {
+  padding-top: 7rem;
+  padding-left: 4rem;
+  width: 60%;
+}
+.membership-sec .sec-2 .join-sec .para-1 h1 {
+  font-family: "Caudex", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 30%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.membership-sec .sec-2 .join-sec .para-1 p {
+  text-align: center;
+  line-height: 2rem;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-left: 20%;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 50px;
+}
+.membership-sec .sec-2 .join-sec img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: var(--hoverColor);
+}
+@media (max-width: 786px) {
+  .membership-sec .sec-2 {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 90%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 0;
+    padding-bottom: 40%;
+    margin: 0;
+    justify-content: center;
+  }
+  .membership-sec .sec-2 .join-sec {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 90%;
+    padding-bottom: 20%;
+    padding-top: 1%;
+  }
+}/*# sourceMappingURL=membership.css.map */

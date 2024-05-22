@@ -12,20 +12,24 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-    <Navbar/>
     <Router>
-      <Routes>
-        <Route path="/" element={<Home/>} exact/>
-        <Route path="/About" element={<About/>} exact/>
-        <Route path="/Governance" element={<Governance/>}/>
-        <Route path="/Membership" element={<Membership/>}/>
-        <Route path="/Benevolence" element={<Benevolence/>}/>
-        <Route path="/News" element={<News/>}/>
-      </Routes>
+      
+      <Navbar/>
+      
+        <Routes>
+
+          <Route path="/" element={<Home />}/>
+          <Route path="/About" element={<About />} />
+          <Route path="/Governance" element={<Governance />}/>
+          <Route path="/Membership" element={<Membership />}/>
+          <Route path="/Benevolence" element={<Benevolence />}/>
+          <Route path="/News" element={<News />}/>
+
+        </Routes>
+      
+      <Footer/> 
+      
     </Router>
-    <Footer/> 
-    </>
   );
 }
 

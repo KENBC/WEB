@@ -3,6 +3,7 @@ import './about.css'
 import image1 from '../../assets/2023 bbq comp/IMAGE 2 - Copy.jpg'
 import image2 from '../../assets/2023 bbq comp/image10.jpg'
 import image3 from '../../assets/2023 bbq comp/fusion-festival-2023-kenya.jpg'
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const about = () => {
   return (
@@ -67,7 +68,7 @@ const about = () => {
               
               <button className='registerBtn'> 
 
-                <a href="#membership" className='join'> Join us</a>
+                <Link to="/Membership" className='join'> Join us</Link>
 
             
               </button>

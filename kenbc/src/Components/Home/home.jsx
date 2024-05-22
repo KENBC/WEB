@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import Con1 from "./con1/con1"
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
 
               <button className='registerBtn'> 
 
-                <a href="../../../public/index.html" className='join'> Join us</a>
+                <Link to="/Membership" className='join'> Join us</Link>
 
               </button>
 

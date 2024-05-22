@@ -19,7 +19,7 @@ const Navbar = () => {
   
 
   return (
-    <Router forceRefresh={true}>
+
     <section className='navBar-section'>
       <div className='join1'>
         <Link to="/Membership">Want to join the KENBC community.Read more</Link>
@@ -69,7 +69,6 @@ const Navbar = () => {
       </div>
 
     </section>
-    </Router>
   )
 }
 

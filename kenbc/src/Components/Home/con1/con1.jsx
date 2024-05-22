@@ -9,6 +9,7 @@ import image5 from '../../../assets/2023 bbq comp/pic5.jpg'
 import image6 from '../../../assets/2023 bbq comp/pic6.jpg'
 import image7 from '../../../assets/2023 bbq comp/pic7.jpg'
 import image8 from '../../../assets/2023 bbq comp/fusion-festival-2023-kenya.jpg'
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 
 const Con1 = () => {
@@ -22,14 +23,14 @@ const Con1 = () => {
         <div className='content'>
 
             <div class="con-Area">
-                <h1 className='headOne'> <a href='#membership'>Membership</a></h1>
+                <h1 className='headOne'> <Link to='/Membership'>Membership</Link></h1>
                 <p className='paraOne'>Welcome to a space 
                 where ideas converge and connections flourish –
                  the KenBC Community Forum. As a member, you'll dive into insightful discussions, connect with like-minded individuals, and access exclusive content. Whether you're an expert or a learner, this is your gateway to a vibrant community eager to share and learn together.</p>
-                <h1 className='headOne'><a href='#Governance'>Governance</a></h1>
+                <h1 className='headOne'><Link to='/Governance'>Governance</Link></h1>
                 <p className='paraOne'>It Comprising dedicated individuals chosen by the community, this leadership ushers in a fresh perspective and a wealth of experience. Guided by transparency, inclusivity, and a commitment to progress, the 2023 governance is poised to steer KenBC towards even greater heights. With a collective vision and a passion for positive change, this dynamic team is set to inspire,
                  innovate, and shape the future of our community.</p>
-                <h1 className='headOne'><a href='#Benevolence'>Benevolence</a></h1>
+                <h1 className='headOne'><Link to='/Benevolence'>Benevolence</Link></h1>
                 <p className='paraOne'>In times of loss, the Kenyan community has consistently demonstrated its remarkable spirit of assistance and solidarity for those who have experienced the passing of a loved one. Recognizing the challenges that a vast community can face, especially within a demanding economic landscape, a significant step has been taken to alleviate the complexities of this process. In a unanimous decision born out of the collective vision, a Benevolent Fund has been established. This initiative aims to streamline the process of raising crucial financial 
                     support for registered members grappling with bereavement.</p>
             </div>
