@@ -57,8 +57,9 @@ font-family: "Lato", sans-serif;
             width: 52.33333333% !important;
             img{
                 height: 300px;
-                width: 300px;
-                object-fit: cover;
+                width: 260px;
+                object-fit:cover;
+                overflow:auto;
             }
         }
         .col2{  
@@ -79,6 +80,7 @@ font-family: "Lato", sans-serif;
                 }
                 p{
                     font-size: 1rem;
+                    padding-bottom: 10px;
                 }
 
             }

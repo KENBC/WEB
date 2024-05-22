@@ -57,9 +57,10 @@ font-family: "Lato", sans-serif;
 }
 .team .sec-2 .row1 .col1 img {
   height: 300px;
-  width: 300px;
+  width: 260px;
   -o-object-fit: cover;
      object-fit: cover;
+  overflow: auto;
 }
 .team .sec-2 .row1 .col2 {
   background-color: var(--whiteColor);
@@ -79,6 +80,7 @@ font-family: "Lato", sans-serif;
 }
 .team .sec-2 .row1 .col2 .card-body p {
   font-size: 1rem;
+  padding-bottom: 10px;
 }
 @media (max-width: 768px) {
   .team .sec-2 {

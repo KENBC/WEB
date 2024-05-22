@@ -86,7 +86,7 @@ const governance = () => {
           </div>
           <div class="col2">
               <div class="card-body">
-                  <h5 class="card-title">Muthee Wahome(Aucher)</h5>
+                  <h5 class="card-title">Muthee Wahome</h5>
                   <p class="card-text">IT, Branding and Marketing</p>
               </div>
           </div>
