@@ -36,7 +36,32 @@ const about = () => {
 
               <h1>What We Do?</h1>
 
-              <p> At the heart of the Kenyan Community In British Columbia Society (KENBC) lies a profound commitment to fostering unity and integration. We diligently work to bring together the diverse tapestry of Kenyan immigrants who now call British Columbia their home. Through our vibrant platform, we provide a structured and engaging forum for social interaction, ensuring that individuals find a warm welcome and a sense of belonging in their new Canadian life. Beyond serving the Kenyan-Canadian Community, we extend our arms to support fellow African-descent communities, individuals throughout British Columbia, and other visible minority groups. By promoting inter-culturalism and mutual support, we contribute to a harmonious mosaic of cultures that defines the essence of our community.</p>
+              <p> At the heart of the Kenyan 
+                Community In British Columbia 
+                Society (KENBC) lies a profound 
+                commitment to fostering unity and 
+                integration. We diligently work to
+                bring together the diverse tapestry
+                of Kenyan immigrants who now call 
+                British Columbia their home. 
+                Through our vibrant platform, 
+                we provide a structured and 
+                engaging forum for social 
+                interaction, ensuring that
+                individuals find a warm welcome 
+                and a sense of belonging in their 
+                new Canadian life. Beyond serving the
+                Kenyan-Canadian Community, we extend
+                our arms to support fellow 
+                African-descent communities, 
+                individuals throughout British
+                Columbia, and other visible
+                minority groups. By promoting
+                inter-culturalism and mutual 
+                support, we contribute to a 
+                harmonious mosaic of cultures
+                that defines the essence of
+                our community.</p>
             
             </div>
 
