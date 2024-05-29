@@ -26,6 +26,7 @@ function App() {
           <Route path="/News" element={<News />}/>
 
         </Routes>
+      <Home/>
       
       <Footer/> 
       
